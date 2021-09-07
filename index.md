@@ -3,9 +3,9 @@ layout: base.njk
 title: pidgey
 ---
 
-# Pidgey
+<h1><img style="vertical-align: middle;" src="/images/pidgey.png" alt="Pidgey" height="50px">&nbsp;Pidgey</h1>
 
-I am an anonymous Indian hacker in his early 20s. 
+I am an anonymous Indian hacker in his early 20s.
 
 Mail: [pidgeymailbox@gmail.com](mailto:pidgeymailbox@gmail.com)
 
