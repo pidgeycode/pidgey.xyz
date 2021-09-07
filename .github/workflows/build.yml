@@ -6,8 +6,10 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@master
-      - name: Build
-        uses: TartanLlama/actions-eleventy@v1.1
+      - name: Install Eleventy
+        run: npm install -g @11ty/eleventy
+      - name: Build Site
+        run: eleventy
       - name: Add CNAME
         run: cp CNAME ./_site
       - name: Deploy
