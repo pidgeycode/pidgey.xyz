@@ -7,6 +7,12 @@ title: pidgey
 
 I am an anonymous Indian hacker in his early 20s.
 
+## Projects
+
+List is Empty
+
+## Contact
+
 Mail: [pidgeymailbox@gmail.com](mailto:pidgeymailbox@gmail.com)
 
 GitHub: [https://github.com/pidgeycode](https://github.com/pidgeycode)
