@@ -1,0 +1,41 @@
+---
+layout: base.njk
+title: pidgey
+---
+
+<h1>
+  <img
+    style="vertical-align: middle"
+    src="/images/pidgey.png"
+    alt="Pidgey"
+    height="50px"
+  />&nbsp;Pidgey
+</h1>
+
+{{ content | safe }}
+
+<h2>Posts</h2>
+
+{%- for post in collections.post -%}
+<li>
+  <a href="{{ post.url }}">{{ post.data.title }}</a>
+</li>
+{%- endfor -%} 
+
+<h2>Projects</h2>
+
+{%- for project in collections.project -%}
+<li>
+  <a href="{{ project.data.url }}">{{ project.data.name }}</a>
+</li>
+{%- endfor -%}
+
+<h2>Contact</h2>
+
+<p>
+  Mail: <a href="mailto:pidgeymailbox@gmail.com">pidgeymailbox@gmail.com</a>
+</p>
+<p>
+  GitHub:
+  <a href="https://github.com/pidgeycode">https://github.com/pidgeycode</a>
+</p>
